@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0d12">
+  <title>RYU XP | Premium Voucher Center</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="/">
+    <span class="brand-mark">R</span>
+    RYU <b>XP</b>
+  </a>
+  <nav>
+    <a href="#vouchers">Vouchers</a>
+    <a href="#how">How to use</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">EXCLUSIVE DEALS BY RYU XP</div>
+    <h1>โค้ดส่วนลดพิเศษ<br><em>RYU XP</em></h1>
+    <p>รวมโค้ดส่วนลดพิเศษสำหรับลูกค้า RYU XP</p>
+    <a class="hero-cta" href="#vouchers">
+      Explore Vouchers ↘
+    </a>
+    <div class="hero-stats">
+      <strong id="activeCount">0</strong>
+      <span>Available Vouchers</span>
+    </div>
+  </section>
+
+  <section class="voucher-section" id="vouchers">
+    <div class="section-heading">
+      <div>
+        <div class="section-kicker">THE VOUCHER COLLECTION</div>
+        <h2>เลือกดีลที่ใช่สำหรับคุณ</h2>
+      </div>
+      <input id="searchInput" placeholder="ค้นหาคูปอง...">
+    </div>
+
+    <div class="filter-row">
+      <button class="filter active" data-filter="all">ทั้งหมด</button>
+      <button class="filter" data-filter="active">Public</button>
+      <button class="filter" data-filter="locked">Private</button>
+    </div>
+
+    <div class="voucher-grid" id="voucherGrid"></div>
+    <div id="emptyState" class="hidden">ไม่พบคูปอง</div>
+  </section>
+
+  <section class="how-section" id="how">
+    <div class="section-kicker">QUICK & EASY</div>
+    <h2>วิธีใช้คูปอง</h2>
+    <div class="steps">
+      <article class="step">
+        <h3>01 เลือกคูปอง</h3>
+        <p>เลือกส่วนลดที่ต้องการ</p>
+      </article>
+      <article class="step">
+        <h3>02 เปิดดูโค้ด</h3>
+        <p>ปลดล็อกด้วยรหัสหากเป็น Private</p>
+      </article>
+      <article class="step">
+        <h3>03 ใช้งาน</h3>
+        <p>นำโค้ดไปใช้ใน Shopee</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="brand">RYU <b>XP</b></div>
+  <p>Premium Voucher Center</p>
+  <small>© 2026 RYU XP</small>
+  <small>เว็บไซต์นี้ไม่ใช่เว็บไซต์ทางการของ Shopee</small>
+</footer>
+
+<script src="/vouchers.js"></script>
+<script src="/home.js"></script>
+</body>
+</html>
